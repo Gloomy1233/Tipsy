@@ -104,7 +104,7 @@ private fun PagerState.PrepareContent(
         val scope = PagerScope(this, page)
         key(pageData) {
             Column(modifier = pageData) {
-                scope.content()
+               scope.content()
             }
         }
     }

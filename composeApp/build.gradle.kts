@@ -58,9 +58,15 @@ kotlin {
             implementation("com.github.Gurupreet:FontAwesomeCompose:1.0.0")
             implementation("network.chaintech:sdp-ssp-compose-multiplatform:1.0.4")
             implementation("androidx.compose.material:material-icons-extended:1.5.4")
-            implementation ("com.google.firebase:firebase-auth")
+            implementation(libs.firebase.auth)
+            implementation(libs.coil.compose)
+            implementation(libs.coil.network.okhttp)
+            implementation(libs.androidx.foundation)
+            implementation(libs.firebase.firestore)
 
-            implementation("com.google.firebase:firebase-firestore")
+            // Accompanist Animations (optional, for enhanced animations)
+
+
 
 
 
@@ -118,5 +124,6 @@ dependencies {
     implementation(libs.androidx.material3.android)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.firebase.database.ktx)
+    implementation(libs.firebase.storage.ktx)
 }
 

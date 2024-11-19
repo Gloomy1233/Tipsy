@@ -4,7 +4,7 @@
             "outputFile": "com.example.composeApp-mergeDebugResources-3:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\StudioProjects\\recompose\\.gradle\\caches\\transforms-4\\f722b7b260affcaf53a7ea2e6a4c9cbc\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\Administrator\\StudioProjects\\recompose\\.gradle\\caches\\transforms-4\\4d13ca2fa06f5f300ea02eeb9097713f\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

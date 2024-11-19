@@ -2,7 +2,7 @@ package com.example.composeApp.DataModels
 
 data class User(
     val uid: String,
-    val accountType: String,
+    val accountType: Boolean,
     val fullName: String,
     val email: String,
     val phone: String,

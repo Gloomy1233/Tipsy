@@ -102,4 +102,5 @@ class PagerScope(
      * Returns the current selection state
      */
     val selectionState: SelectionState
-        get() = state.selectionState}
+        get() = state.selectionState
+}

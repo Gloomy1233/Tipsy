@@ -24,7 +24,6 @@ import com.example.composeApp.commons.MyApplicationTheme
 import com.example.composeApp.screens.LoginScreen
 import com.example.composeApp.screens.RegisterScreen
 import com.example.composeApp.utility.gradientPink
-import com.example.composeApp.utility.primaryOrange
 import com.google.firebase.FirebaseApp
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -62,7 +61,6 @@ class MainActivity : BaseActivity() {
             composable("login") { LoginScreen(navController) }
             composable("register") { RegisterScreen(
                 navController,
-                context = this@MainActivity
             ) } // Register screen
         }
     }

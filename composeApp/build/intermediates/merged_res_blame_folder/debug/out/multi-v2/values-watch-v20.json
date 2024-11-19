@@ -4,7 +4,7 @@
             "outputFile": "com.example.composeApp-mergeDebugResources-3:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\StudioProjects\\recompose\\.gradle\\caches\\transforms-4\\655aee3bac537f7b38b5d9e9a736d294\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\Administrator\\StudioProjects\\recompose\\.gradle\\caches\\transforms-4\\c9895c599019cbcf05738e1cdff3d28f\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

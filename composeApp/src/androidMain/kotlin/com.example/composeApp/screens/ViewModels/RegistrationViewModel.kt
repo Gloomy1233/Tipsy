@@ -7,7 +7,7 @@ import androidx.compose.runtime.setValue
 
 class RegistrationViewModel : ViewModel() {
     // Step 1: Account Type
-    var accountType by mutableStateOf("")
+    var accountType by mutableStateOf(false)
 
     // Step 2: Required Info
     var fullName by mutableStateOf("")
@@ -27,4 +27,7 @@ class RegistrationViewModel : ViewModel() {
     var profilePictureUri by mutableStateOf<String?>(null)
 
     // Add validation logic as needed
+    override fun toString(): String {
+        return "accountType='$accountType', fullName='$fullName', email='$email', password='${password.take(10)}', repeatPassword='${repeatPassword.take(10)}', phone='$phone', isPhoneVisible=$isPhoneVisible, dateOfBirth='$dateOfBirth', sex='$sex', relationshipStatus='$relationshipStatus', bio='$bio', profilePictureUri='$profilePictureUri')"
+    }
 }

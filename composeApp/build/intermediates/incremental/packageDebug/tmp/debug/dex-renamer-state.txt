@@ -1,4 +1,4 @@
-#Sun Nov 17 16:23:51 EET 2024
+#Tue Nov 19 00:01:22 EET 2024
 base.0=C\:\\Users\\Administrator\\Desktop\\Tipsy\\composeApp\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Administrator\\Desktop\\Tipsy\\composeApp\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\4\\classes.dex
 base.10=C\:\\Users\\Administrator\\Desktop\\Tipsy\\composeApp\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
